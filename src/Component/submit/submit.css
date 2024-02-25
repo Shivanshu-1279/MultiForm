@@ -1,0 +1,52 @@
+.App {
+    margin: 20px;
+  }
+  
+.container{
+    margin-bottom: 66px;
+} 
+
+  .section {
+    margin: -7px 5px;
+  }
+  
+  .section-heading {
+    font-size: 22px;
+    font-weight: 400;
+  }
+             
+  .form-group-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     margin: -12px -8px;
+  }
+  
+  .form-group {
+    flex: 1;
+    max-width: calc(50% - 10px);
+    padding: 10px;
+  }
+  
+  span{
+    font-size: 14px;
+    color: gray;
+    font-weight: 600;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .save-continue-bt {
+    background-color: #ccc; 
+    padding: 13px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    cursor: not-allowed;
+}

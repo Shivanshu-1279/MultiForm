@@ -1,0 +1,123 @@
+.personal-details-containers {
+    margin: auto;
+margin: -60px 2px;
+    padding: 52px 1px;
+    margin-bottom: 25px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    width: 25%; 
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.save-continue-btn {
+    padding: 13px 40px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.save-continue-btn1 {
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-continue-btn:hover {
+    background-color: #0056b3;
+}
+
+.save-continue-btn.disabled {
+    background-color: #ccc;
+    color: gray;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.subHead{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .personal-details-container {
+        margin: auto;
+        margin: -60px 2px;
+        padding: 52px 1px;
+        margin-bottom: 25px;
+    }
+
+    .input-row {
+        flex-direction: column; 
+        margin-bottom: 15px; 
+    }
+
+    .input-group {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .input-group input,
+    .input-group select {
+        width: calc(100% - 20px); 
+        padding: 8px; 
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .save-continue-container {
+        display: flex;
+    }
+
+    #checkBut{
+        padding: 18px 118px;
+        margin: 6px 21px;
+        margin-left: -46px;
+    }
+
+    .save-con-btn {
+        padding: 0 200px;
+    }
+
+    #btn1 {
+        visibility: hidden; 
+    }
+
+}

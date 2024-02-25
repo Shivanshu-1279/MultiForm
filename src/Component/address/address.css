@@ -1,0 +1,166 @@
+.personal-details-container {
+    margin: auto;
+    margin: -13px 2px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.input-group1 {
+    width: 45%; 
+    margin-bottom: 10px;
+}
+
+.input-group1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group1 input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input-group {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+.input-group select::-ms-expand {
+    display: none;
+}
+
+.save-continue-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-con-btn {
+    padding: 0 67px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.save-con-btn:hover {
+    background-color: #0056b3;
+}
+
+.save-con-btn.disabled{
+    background-color: #ccc;
+    color: gray;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.save-continue-btn1 {
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid purple;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-gp{
+    text-align: end;
+}
+
+.select-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .arrow-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .input-group1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #zipcode{
+        width: 106%;
+        margin-bottom: 20px;
+    }
+
+    .input-row {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .input-group select{
+        width: calc(266% - -118px);
+        padding: 8px; 
+    }
+
+    #inpgrop{
+        width: 106%;
+        margin-bottom: 20px;
+    }
+
+    .input-group input {
+        width: calc(266% - -118px);
+        padding: 8px; 
+    }
+
+    .arrow-icon{
+        right: 26px;
+    }
+
+    .save-continue-container {
+        display: flex;
+    }
+
+    #savebtn {
+        padding: 0 79px;
+    }
+
+    .button-gp {
+        text-align: center;
+    }
+}
